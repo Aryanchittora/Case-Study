@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
     <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">    
@@ -30,14 +29,12 @@
                 <br>
                 <li>
                     <h4>Test Image</h4>
-                    <img style="height: 300px;width: 200px;border-radius: 15px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMafT437EJdkzRaVclRNqibR3I1SamSxSEGw&usqp=CAU">
+                    <img id="test_img" style="height: 300px;width: 200px;border-radius: 15px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMafT437EJdkzRaVclRNqibR3I1SamSxSEGw&usqp=CAU">
                     <br>
-                    <input style="margin-top: 5px;" type="text" placeholder="Enter Image Link"><span><button onclick="change_img()" class="btn btn-info">Change Image</button></span>
                 </li>
 
                 <li>
-                    <h5>Output On <b>Wolfarm Project -</b>
-                        <span id="wolfram_ans"></span>
+                    <h5>Output On <b>Wolfarm Project - Bottle</b>
                     </h5>
                 </li>
 
@@ -61,5 +58,7 @@
             <h4>Developed By - <b>Aryan Chittora</b></h4>
         </div>
     </center>
+
+    <script src="main.js"></script>
 </body>
 </html>
