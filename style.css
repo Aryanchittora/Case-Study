@@ -28,7 +28,10 @@ b {
     background-color: rgb(224, 219, 219);
     padding: 2px;
 }
-input {
-    border-radius: 5px;
+#case_study_ans {
     background-color: rgb(224, 219, 219);
+    font-size: 15px;
+    padding: 2px;
+    border-radius: 10px;
+    width: 500px;
 }
